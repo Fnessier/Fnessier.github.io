@@ -3,3 +3,46 @@
     margin: 0px;
     /* color a usar #2daeb5 */
 }
+.flex{
+    display: flex;
+}
+ul{
+    display: none;
+}
+header{
+    background-color: #2DAEB5;
+    justify-content: flex-end;
+}
+i{
+    margin: 5px;
+    font-size: 20px;
+}
+section.flex.home{
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    display: flex;
+    width: 60vw;
+    border-radius: 200px;
+}
+h1,h2,h3{
+    margin: 3px;
+    font-family: sans-serif;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+}
+h3{
+    font-style: nomal;
+    font-weight: lighter;
+    font-size: 30px;
+}
