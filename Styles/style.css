@@ -1,98 +1,112 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    /* color a usar #2daeb5 */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  /* color a usar #2daeb5 */
 }
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
 /* ESTILOS DEL HEADER */
-header{
-    position: sticky;
-    background-color: #2DAEB5;
-    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
-    width: 100vw;
+header {
+  position: sticky;
+  background-color: #2daeb5;
+  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+  width: 100vw;
 }
-nav{
-    align-items: center;
+nav {
+  align-items: center;
 }
-i{
-    margin: 7px 10px;
-    font-size: 20px;
+i {
+  margin: 7px 10px;
+  font-size: 20px;
 }
-ul{
-    display: none;
+ul {
+  display: none;
 }
 /* ESTILOS DEL MAIN */
 /* Estilos seccion principal */
-section.flex.home{
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+section.flex.home {
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+}
+img.foto_perfil {
+  margin-top: 10px;
+  display: flex;
+  width: 65vw;
+  border-radius: 200px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+p {
+  margin: 3px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
 
+h1 {
+  text-transform: uppercase;
+  font-size: 19px;
+  font-weight: 300;
 }
-img.foto_perfil{
-    margin-top: 10px;
+h2 {
+  font-weight: 600;
+  font-size: 30px;
+  color: #2daeb5;
+}
+h3 {
+  font-weight: 200;
+  font-size: 30px;
+}
+h4 {
+  /*Titulos en azul*/
+  color: #2daeb5;
+  margin-bottom: 20px;
+}
+h5 {
+  font-weight: 400;
+}
+span.negrita {
+  font-weight: 600;
+}
+p {
+  font-size: 12px;
+  font-weight: 200;
+}
+.home {
+  padding: 5px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  box-shadow: 0px -3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.experience {
+  /* Toda la seccion de experiencia laboral */
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+article.card_exp {
+  /* cada una de las tarjetas de exp. */
+  width: 95vw;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding: 5px;
+}
+div.text_conteiner{
     display: flex;
-    width: 65vw;
-    border-radius: 200px;
-}
-h1,h2,h3,h4,h5,span,p{
-    margin: 3px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-}
-
-h1{
-    text-transform: uppercase;
-    font-size: 19px;
-    font-weight: 300;
-}
-h2{
-    font-weight: 600;
-    font-size: 30px;
-    color: #2DAEB5;
-}
-h3{
-    font-weight: 200;
-    font-size: 30px;
-}
-h4{ /*Titulos en azul*/
-    color: #2DAEB5;
-    margin-bottom: 20px;
-}
-h5{
-    font-weight: 400;
-}
-span.negrita{
-    font-weight: 600;
-}
-p{
-    font-size: 12px;
-    font-weight: 200;
-}
-.home{
-    padding: 5px;
-    background-image: url(../img/background.jpg);
-    background-size: cover;
-    box-shadow: 0px -3px 3px 0px rgba(0,0,0,0.2);
-}
-.experience{ /* Toda la seccion de experiencia laboral */
     flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+    align-items: flex-start;
 }
-article.card_exp{ /* cada una de las tarjetas de exp. */
-    width: 95vw;
-    margin-bottom: 10px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #F6F6F6;
-    padding: 5px;
-}
-img.logo_empresa{
-    width: 27vw;
+img.logo_empresa {
+  width: 27vw;
+  margin-right: 5px;
 }
