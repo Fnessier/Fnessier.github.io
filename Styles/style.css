@@ -6,10 +6,12 @@
 .flex{
     display: flex;
 }
+/* ESTILOS DEL HEADER */
 header{
+    position: sticky;
     background-color: #2DAEB5;
-    justify-content: flex-start;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    width: 100vw;
 }
 nav{
     align-items: center;
@@ -21,39 +23,76 @@ i{
 ul{
     display: none;
 }
+/* ESTILOS DEL MAIN */
+/* Estilos seccion principal */
 section.flex.home{
     flex-direction: column;
     align-items: center;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+
 }
-img{
+img.foto_perfil{
+    margin-top: 10px;
     display: flex;
-    width: 60vw;
+    width: 65vw;
     border-radius: 200px;
 }
-h1,h2,h3,span{
+h1,h2,h3,h4,h5,span,p{
     margin: 3px;
     font-family: 'Inter', sans-serif;
+    font-style: normal;
 }
 
 h1{
     text-transform: uppercase;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
+    font-size: 19px;
+    font-weight: 300;
 }
 h2{
-    font-style: normal;
     font-weight: 600;
-    font-size: 27px;
+    font-size: 30px;
+    color: #2DAEB5;
 }
 h3{
-    font-style: normal;
     font-weight: 200;
     font-size: 30px;
+}
+h4{ /*Titulos en azul*/
+    color: #2DAEB5;
+    margin-bottom: 20px;
+}
+h5{
+    font-weight: 400;
+}
+span.negrita{
+    font-weight: 600;
+}
+p{
+    font-size: 12px;
+    font-weight: 200;
 }
 .home{
     padding: 5px;
     background-image: url(../img/background.jpg);
     background-size: cover;
     box-shadow: 0px -3px 3px 0px rgba(0,0,0,0.2);
+}
+.experience{ /* Toda la seccion de experiencia laboral */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+article.card_exp{ /* cada una de las tarjetas de exp. */
+    width: 95vw;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F6F6F6;
+    padding: 5px;
+}
+img.logo_empresa{
+    width: 27vw;
 }
