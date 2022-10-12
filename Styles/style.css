@@ -12,6 +12,7 @@ header {
   background-color: #2daeb5;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
   width: 100vw;
+  height: 55px;
 }
 nav {
   align-items: center;
@@ -28,15 +29,15 @@ ul {
 section.flex.home {
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
-  height: 65vh;
+  height: 460px;
 }
 img.foto_perfil {
-  margin-top: 10px;
-  margin-bottom: 10px;
   display: flex;
   width: 69vw;
   border-radius: 200px;
+  margin-bottom: 20px;
 }
 h1,
 h2,
@@ -78,7 +79,7 @@ span.negrita {
   font-weight: 600;
 }
 p {
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 200;
 }
 .home {
