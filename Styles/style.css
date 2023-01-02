@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0px;
+  padding: 0px;
   /* color a usar #2daeb5 */
 }
 .flex {
@@ -8,23 +9,42 @@
 }
 /* ESTILOS DEL HEADER */
 header {
+  display: flex;
+  flex-direction: column;
   position: sticky;
   background-color: #2daeb5;
   box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
   width: 100vw;
-  height: 6vh;
 }
 nav {
   align-items: center;
+  display: flex;
+  flex-direction: column;
+
 }
 i {
+  align-self: flex-start;
   margin: 15px;
-  font-size: 35px;
+  font-size: 33px;
   color: #efefef;
 }
 ul {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
+ul li{
+  text-decoration: none;
+  list-style-type: none;
+  margin: 15px;
+  color:#F0F0F0;
+}
+ul li:hover{
+  cursor: pointer;
+  color: #C5C5C5;
+}
+
 /* ESTILOS DEL MAIN */
 /* Estilos seccion principal */
 section.flex.home {
@@ -47,10 +67,14 @@ h3,
 h4,
 h5,
 span,
+li,
 p {
   margin: 3px;
   font-family: "Inter", sans-serif;
   font-style: normal;
+}
+p.link{
+  font-size: 15px;
 }
 
 h1 {
@@ -95,6 +119,8 @@ p {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow: 1px 10px 10px -7px rgba(0,0,0,0.15);
 }
 article.card_exp {
   /* cada una de las tarjetas de exp. */
@@ -114,15 +140,7 @@ div.text_conteiner{
     flex-direction: column;
     align-items: flex-start;
 }
- /* Sección de cursos  */
- .knowledgement {
-  /* cursos y educacion en IT */
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
-  padding-top: 45px;
-  background-color: #fafafa;
-}
+
 article.card_know {
   /* cada una de las tarjetas de exp. */
   width: 90vw;

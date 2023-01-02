@@ -1,0 +1,1 @@
+const icono = document.querySelector(icono)
