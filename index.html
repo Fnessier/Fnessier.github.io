@@ -5,92 +5,132 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Francisco Nessier</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header class="flex">
+    <header class="flex color-aqua shadow">
         <nav class="flex">
-            <button class="icono">
-                <span class='bar-1'></span>
-                <span class='bar-1'></span>
-                <span class='bar-1'></span>  
+            <button class="menu-boton flex" type="button" id="00">
+                <span class="br-1"></span>
+                <span class="br-2"></span>
+                <span class="br-3"></span>
             </button>
-            <ul class="menu">
-                <li>Home</li>
-                <li>Work experience</li>
-                <li>Education</li>
-                <li>Degree</li>
-                <li>Skills</li>
-                <li>Contact</li>
+            <ul class="" id="01">
+                <li> <a href="">Home</a></li>
+                <li><a href="">Work experience</a></li>
+                <li><a href="">Education</a></li>
+                <li><a href="">IT Courses</a></li>
+                <li><a href="">About me</a></li>
+                <li><a href="">Contact me</a></li> 
             </ul>
         </nav>
     </header>
-    <main>
-        <section class="flex home">
-            <div>
-            <img class='foto_perfil' src="./img/Perfil.png" alt="">
-            </div>   
-            <h3>Hello, I'm</h2>
-            <h2>FRANCISCO NESSIER</h2>
-            <h1>MECHANICAL ENGINEER</h1>
+    <body>
+        <section class="flex banner shadow">
+                <img class='logo' src="./img/Perfil.png" alt="Fran Nessier">
+                <h3 class="">Hello I'm</h3>
+                <h2 class=" color-aqua">Francisco Nessier</h2>
+                <h1>MECHANICAL ENGINEER</h1>
         </section>
-        <section class="flex experience">
-            <h4>WORK EXPERIENCE</h4>
-            <article class="card_exp"> <!-- TAV -->
-                <div class="text_conteiner">
+
+<!-- SECCION PARA COLOCAR EXPERIENCIA LABORAL -->
+
+        <section class="flex shadow cards">
+            <h4 class="color-aqua">WORK EXPERIENCE</h4>
+            <!-- TARJETA TAV INGENIERIA -->
+            <article class="flex card experience">
+                <div class="flex text-conteiner">
                     <h5> <span class="negrita">2022-Present:</span>  TAV Ingeniería S.A. </h5>
                     <p>Mechanical Designer(design, material planning, purchasing, mounting planning and execution, etc.) using Solidworks.</p> <p class="link"> <br><a href="https://tavingenieriasa.com.ar/" target="new tab">
                     Click here</a> to visit company's website.</p>
                 </div>
             </article>
-            <article class="card_exp"> <!-- PESINGER -->
-                <div class="text_conteiner">
+            <!-- TARJETA PESSINGER -->
+            <article class="flex card experience">
+                <div class="flex text-conteiner">
                     <h5> <span class="negrita">2020-2021:</span> Pesinger-Eliovac S.A.</h5>
-                    <p>Mechanical Designer(design, material
-                        planning, purchasing, mounting planning and
-                        execution, etc.)</p> <p class="link"><br><a href="http://www.pesinger.com.ar/?gclid=Cj0KCQiAnsqdBhCGARIsAAyjYjT3Fke_Ek44Bl4jJ5SW_1BmZNiNC7_Cg5xo_66uMbLRh3Rl07eN9vEaAuWnEALw_wcB" target="new tab">
-                            Click here</a> to visit company's website.</p>
+                    <p>Mechanical Designer(design, material planning, purchasing, mounting planning and execution, etc.)</p> <p class="link"><br><a href="http://www.pesinger.com.ar/?gclid=Cj0KCQiAnsqdBhCGARIsAAyjYjT3Fke_Ek44Bl4jJ5SW_1BmZNiNC7_Cg5xo_66uMbLRh3Rl07eN9vEaAuWnEALw_wcB" target="new tab"> Click here</a> to visit company's website.</p>
                 </div>
             </article>
-            <article class="card_exp"> <!-- Layer 3D -->
-                <div class="text_conteiner">
+            <!-- TARJETA LAYER 3D -->
+            <article class="flex card experience">
+                <div class="flex text-conteiner">
                     <h5> <span class="negrita">2019: </span> "Layers: Soluciones Impresas"</h5>
                     <p>Personal entrepreneurship based on 3D printing
                         manufacturing and CAD modeling (dev. client
-                        solutions   )</p>
+                        solutions)
+                    </p>
                 </div>
             </article>
-            <article class="card_exp"> <!-- REFRIGERACION -->
-                <div class="text_conteiner">
+            <!-- TARJETA REFRIGERACION -->
+            <article class="flex card experience">
+                <div class="flex text-conteiner">
                     <h5><span class="negrita">2015: </span>Home Refrigeration</h5>
-                    <p>Air conditioner and refrigerators manitenance
-                        and repairment</p>
+                    <p>
+                        Air conditioner and refrigerators manitenanceand repairment
+                    </p>
                 </div>
-            </article>
-            <article class="card_exp"> <!-- Nation -->
-                <div class="text_conteiner">
+            </article> 
+            <!-- TARJETA NATION -->
+            <article class="flex card experience">
+                <div class="flex text-conteiner">
                     <h5><span class="negrita">2014: </span>Nation - Escobar</h5>
-                    <p>Schoolar intership at Peugeot-Citroen and Ford-Volkswagen car dealership</p>
-                </div>
-            </article>
-        </section>
-        <section class="flex experience">
-            <h4>COURSES</h4>
-            <article class="card_know"> <!-- TAV -->
-                <div class="text_conteiner">
-                    <h5> <span class="negrita">Python:</span> Scientific computing</h5>
-                    <p>Developer Certification, reprenting approximately 300 hours of cousework from FreeCodeCamp.</p>
+                    <p>
+                        Schoolar intership at Peugeot-Citroen and Ford-Volkswagen car dealership
+                    </p>
                 </div>
             </article>
         </section>
 
-    </main>
-    <footer>
-    </footer>
+<!-- SECCION PARA COLOCAR EXPERIENCIA LABORAL -->
+
+        <section class="flex shadow cards">
+            <h4 class="color-aqua">EDUCATION</h4>
+            <!-- TARJETA UTN -->
+            <article class="flex card experience">
+                <div class="flex text-conteiner">
+                    <h5> <span class="negrita">2014-Present:</span>  U.T.N - Reg. Santa Fe - Mechanical Engineer </h5>
+                    <p>
+                        Investigation scholarship PID4430. Paper publication in JIT- Rafaela "Study and caraterization of 
+                        design variables por an axialcutting log splitter implement". Year 2018.(Bilingual litterature where 
+                        used in these study)
+                    </p>
+                    <p class="link"> <br><a href="https://www.frsf.utn.edu.ar/" target="new tab">
+                        Click here</a> to visit institution's website.
+                    </p>
+                </div>
+            </article>
+            <!-- TARJETA EIS -->
+            <article class="flex card experience">
+                <div class="flex text-conteiner">
+                    <h5> <span class="negrita">2008-2013:</span>  Escuela Industrial Superior (E.I.S.) </h5>
+                    <p>
+                        Electrician Mechanic Technician
+                    </p>
+                    <p class="link"> <br><a href="https://www.eis.unl.edu.ar/" target="new tab">
+                        Click here</a> to visit institution's website.
+                    </p>
+                </div>
+            </article>
+        </section>
+
+<!-- SECCION PARA COLOCAR CURSOS IT -->
+
+        <section class="flex shadow cards">
+            <h4 class="color-aqua">IT COURSES</h4>
+            <article class="flex card experience">
+                <div class="flex text-conteiner">
+                    <h5> <span class="negrita">"Scientific Computing with Python:</span> (Certified)</h5>
+                    <p>
+                        Developer Certification, reprenting approximately 300 hours of
+                        coursework from FreeCodeCamp.
+                    </p>
+                </div>
+            </article>
+        </section>
+    </body>
     <script src="./js/main.js"></script>
 </body>
 </html>

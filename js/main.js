@@ -1,7 +1,9 @@
-const icono = document.querySelector('.icono')
-const menu = document.querySelector('.menu')
+const botonMenu = document.getElementById('00')
+const menuDesplegable = document.getElementById('01')
+const barras = document.querySelectorAll('.menu-boton span')
 
 
-icono.addEventListener('click', () => {
-    menu.classList.toggle('activado');
+botonMenu.addEventListener('click',()=>{
+    menuDesplegable.classList.toggle('flex');
+    barras.forEach(child => child.classList.toggle('cross'))
 })
