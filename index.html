@@ -18,17 +18,17 @@
                 <span class="br-3"></span>
             </button>
             <ul class="" id="01">
-                <li> <a href="">Home</a></li>
-                <li><a href="">Work experience</a></li>
-                <li><a href="">Education</a></li>
-                <li><a href="">IT Courses</a></li>
-                <li><a href="">About me</a></li>
-                <li><a href="">Contact me</a></li> 
+                <li> <a href="#home">Home</a></li>
+                <li><a href="#work-exp">Work experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#courses">IT Courses</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#contact">Contact me</a></li> 
             </ul>
         </nav>
     </header>
     <body>
-        <section class="flex banner shadow">
+        <section class="flex banner shadow" id="home">
                 <img class='logo' src="./img/Perfil.png" alt="Fran Nessier">
                 <h3 class="">Hello I'm</h3>
                 <h2 class=" color-aqua">Francisco Nessier</h2>
@@ -38,7 +38,7 @@
 <!-- SECCION PARA COLOCAR EXPERIENCIA LABORAL -->
 
         <section class="flex shadow cards">
-            <h4 class="color-aqua">WORK EXPERIENCE</h4>
+            <h4 class="color-aqua" id="work-exp">WORK EXPERIENCE</h4>
             <!-- TARJETA TAV INGENIERIA -->
             <article class="flex card experience">
                 <div class="flex text-conteiner">
@@ -87,7 +87,7 @@
 <!-- SECCION PARA COLOCAR EXPERIENCIA LABORAL -->
 
         <section class="flex shadow cards">
-            <h4 class="color-aqua">EDUCATION</h4>
+            <h4 class="color-aqua" id="education">EDUCATION</h4>
             <!-- TARJETA UTN -->
             <article class="flex card experience">
                 <div class="flex text-conteiner">
@@ -119,7 +119,7 @@
 <!-- SECCION PARA COLOCAR CURSOS IT -->
 
         <section class="flex shadow cards">
-            <h4 class="color-aqua">IT COURSES & KNOWLEDGE</h4>
+            <h4 class="color-aqua" id="courses">IT COURSES & KNOWLEDGE</h4>
             <article class="flex card experience">
                 <div class="flex text-conteiner">
                     <h5> <span class="negrita">Scientific Computing with Python:</span> (Certified)</h5>
@@ -183,7 +183,15 @@
         </section>
 <!-- S E C C I O N    D E   C O N T A C T O -->
         <section class="flex contactMe bg-color-grey">
-            <h5 class="color-white"> CONTACT SECTION... WORKING IN PROGRESS</h5>
+            <h4 class="color-white" id="contact"> CONTACT ME</h4>
+            <article class="flex card experience">
+                <div class="flex text-conteiner">
+                    <h5> <span class="negrita">WORKING IN PROGRESS</span></h5>
+                    <p>
+                        Forms soon
+                    </p>
+                </div>
+            </article>
         </section>
     </body>
     <script src="./js/main.js"></script>
