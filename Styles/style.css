@@ -196,7 +196,7 @@ p.link{
 article ul.contact{
   flex-direction: row;
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin-bottom: 45px;
 }
 ul.contact li.icons{
   padding: 23px;
@@ -228,4 +228,9 @@ article div.location p{
 }
 p.add{
   font-size: 10px;
+}
+
+span.me{
+  font-weight: bold;
+  cursor: pointer;
 }
