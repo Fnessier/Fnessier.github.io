@@ -250,7 +250,9 @@ span.me{
   font-weight: bold;
   cursor: pointer;
 }
-@media (min-width:769px) {
-  section.banner{
-    margin-top: 70px;
+@media (min-width:900px) {
+  
+  button.menu-boton{
+    display: none;
   }
+}
