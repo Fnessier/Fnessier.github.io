@@ -249,8 +249,12 @@ span.me{
   font-weight: bold;
   cursor: pointer;
 }
-@media (min-width:) {
-  
+@media(min-width:900px) {
+  header nav button.menu-boton{
+    display: none;
+  }
+  ul#01 {
+  display: flex; 
+  }
 }
   
-}
