@@ -41,6 +41,7 @@ a{
 /* ESTILOS DE TITULOS, ETC */
 h1{
   font-size: 30px;
+  text-align: center;
   font-weight: 400;
   margin-bottom: 30px;
 }
@@ -249,8 +250,7 @@ span.me{
   font-weight: bold;
   cursor: pointer;
 }
-@media (min-width:) {
-  
-}
-  
-}
+@media (min-width:769px) {
+  section.banner{
+    margin-top: 70px;
+  }
