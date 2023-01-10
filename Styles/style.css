@@ -91,6 +91,13 @@ nav{
   width: 100%;
   padding: 2%;
 }
+
+div.title-conteiner{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 button.menu-boton{
   background-color: transparent;  /* para que no tenga color */
   border: none; /* para que no tenga bordes */
@@ -159,7 +166,7 @@ button.aboutme{
   margin-bottom: 20px
 }
 .logo{
-  width: 75vw;
+  width: 65vw;
   border-radius: 50%;
   margin-top: 45px;
   margin-bottom: 25px;
@@ -267,16 +274,16 @@ span.me{
   }
 
   ul li {
-    font-size: 18px;
+    font-size: 16px;
     padding: 10px;
     height: 100%;
   }
 
   section.banner{
-    margin-top: 70px;
+    margin-top: 68px; 
   } 
   .logo{
-    width: 59vw;
+    width: 50vw;
   }
 
   article.card.experience{
@@ -299,9 +306,8 @@ span.me{
     flex-direction: row;
     justify-content: space-around;
   }
-
   ul li {
-    font-size: 18px;
+    font-size: 19px;
     padding: 10px;
     height: 100%;
   }
@@ -309,13 +315,60 @@ span.me{
   section.banner{
     margin-top: 70px;
     flex-direction: row;
+    padding: 15px 50px;
+    justify-content: space-around;
   } 
   .logo{
-    width: 40vw;
+    width: 35vw;
   }
 
   article.card.experience{
-    width: 80vw;
+    width: 70vw;
+  }
+  div.title-conteiner{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 
+}
+
+@media (min-width:1280px){
+  nav{
+    padding:1%;
+  }
+
+  button.menu-boton{
+    display: none;
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 70px;
+  }
+  ul li {
+    font-size: 19px;
+    padding: 10px;
+    height: 100%;
+  }
+
+  section.banner{
+    margin-top: 70px;
+    flex-direction: row;
+    padding: 25px 250px;
+    justify-content: space-around;
+  } 
+  .logo{
+    width: 30vw;
+  }
+
+  article.card.experience{
+    width: 55vw;
+  }
+  div.title-conteiner{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
