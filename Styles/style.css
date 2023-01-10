@@ -250,9 +250,72 @@ span.me{
   font-weight: bold;
   cursor: pointer;
 }
-@media (min-width:900px) {
+@media (min-width:800px) and (max-width: 1019px) {
+
+  nav{
+    padding:1.5%;
+  }
+
   
   button.menu-boton{
     display: none;
   }
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  ul li {
+    font-size: 18px;
+    padding: 10px;
+    height: 100%;
+  }
+
+  section.banner{
+    margin-top: 70px;
+  } 
+  .logo{
+    width: 59vw;
+  }
+
+  article.card.experience{
+    width: 80vw;
+  }
+
+}
+
+@media (min-width:1020px) and (max-width: 1279px) {
+  nav{
+    padding:1.5%;
+  }
+
+  
+  button.menu-boton{
+    display: none;
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  ul li {
+    font-size: 18px;
+    padding: 10px;
+    height: 100%;
+  }
+
+  section.banner{
+    margin-top: 70px;
+    flex-direction: row;
+  } 
+  .logo{
+    width: 40vw;
+  }
+
+  article.card.experience{
+    width: 80vw;
+  }
+
 }
