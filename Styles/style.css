@@ -84,6 +84,7 @@ header{
   position: fixed;
   top: 0px;
   left: 0px;
+  z-index: 1;
 }
 
 nav{
@@ -256,6 +257,16 @@ p.add{
 span.me{
   font-weight: bold;
   cursor: pointer;
+}
+ul.skills{
+  flex-direction: column;
+  padding: 20px;
+}
+li.skills{
+  list-style:disc;
+  color: black;
+  font-size: 16px;
+  text-align: left;
 }
 @media (min-width:800px) and (max-width: 1019px) {
 
